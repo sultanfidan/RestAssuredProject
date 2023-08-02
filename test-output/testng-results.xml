@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="4980" started-at="2023-07-31T14:29:57 EET" finished-at="2023-07-31T14:30:02 EET">
+    <groups>
+    </groups>
+    <test name="RestAssuredApiTest" duration-ms="4980" started-at="2023-07-31T14:29:57 EET" finished-at="2023-07-31T14:30:02 EET">
+      <class name="BasicApiTests">
+        <test-method status="PASS" signature="test1()[pri:0, instance:BasicApiTests@59fa1d9b]" name="test1" duration-ms="4096" started-at="2023-07-31T14:29:57 EET" finished-at="2023-07-31T14:30:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:BasicApiTests@59fa1d9b]" name="test2" duration-ms="830" started-at="2023-07-31T14:30:01 EET" finished-at="2023-07-31T14:30:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- BasicApiTests -->
+    </test> <!-- RestAssuredApiTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>

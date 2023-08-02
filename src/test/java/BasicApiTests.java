@@ -1,10 +1,7 @@
 import static io.restassured.RestAssured.*;
 
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 public class BasicApiTests {
@@ -17,9 +14,6 @@ public class BasicApiTests {
         System.out.println("Body: " + response.getBody().asString());
         System.out.println("time taken: " + response.getTime());
         System.out.println("Header: " + response.getHeader("content-type"));
-
-        int statusCode = response.getStatusCode();
-
 
     }
 
